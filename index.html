@@ -18,7 +18,7 @@
 
 <body>
 
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed"
@@ -30,11 +30,11 @@
             </button>
             <a class="navbar-brand" href="./">
                 <img alt="" src="https://avatars2.githubusercontent.com/u/6838037?v=3&s=40">
-                random-host.com - Packages
+                <span class="hidden-xs">random-host.com - </span><span class="visible-xs-inline">Random </span>Packages
             </a>
         </div>
-        <div class="navbar-collapse collapse pull-right">
-            <ul class="nav navbar-nav">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
                 <li class="active">
                     <a href="./">
                         <i class="fa fa-archive" aria-hidden="true"></i>
@@ -56,7 +56,7 @@
             </ul>
         </div>
     </div>
-</div>
+</nav>
 
 <div class="container">
     <div class="page-header">
@@ -352,9 +352,11 @@
     <hr>
 
     <footer>
-        <p class="text-muted small">
-            &copy; 2016 random-host.com
-        </p>
+        <ul class="list-inline small">
+            <li class="text-muted">
+                &copy; 2016 random-host.com
+            </li>
+        </ul>
     </footer>
 </div>
 
