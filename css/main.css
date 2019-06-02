@@ -1,5 +1,9 @@
+html, body {
+    height: 100%;
+    background: #7c3c25 url(img/outback.jpg) no-repeat fixed center center / cover
+}
+
 body {
-    padding-top: 5rem;
     padding-bottom: 1rem;
 }
 
